@@ -51,4 +51,15 @@ img {
   margin-top: 30px;
   animation: pop-in 0.8s ease;
 }
+#greeting {
+  font-size: 28px;
+  color: #d14;
+  margin-top: 20px;
+  animation: fade-in 1s ease;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 
