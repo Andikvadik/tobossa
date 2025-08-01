@@ -1,8 +1,7 @@
 function showCake() {
- function showCake() {
   document.getElementById('cake').classList.remove('hidden');
 
-  // Конфеті запуск
+  // запуск конфеті
   confetti({
     particleCount: 150,
     spread: 80,
