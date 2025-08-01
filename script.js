@@ -1,10 +1,11 @@
 function showCake() {
-  document.getElementById('cake').classList.remove('hidden');
+  const cake = document.getElementById('cake');
+  cake.classList.remove('hidden');
 
-  // запуск конфеті
   confetti({
     particleCount: 150,
-    spread: 80,
+    spread: 100,
     origin: { y: 0.6 }
   });
 }
+
