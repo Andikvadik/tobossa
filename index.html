@@ -2,23 +2,18 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>З Днем народження, Бос!</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Привіт, Бос!</h1>
-    <p>Натисни кнопку 🎉</p>
-    <button onclick="showCake()">🎂 Натисни тут</button>
-    <div id="cake" class="hidden">
-      <img src="cake.jpg" alt="Тортик зі свічками">
-      <h2>З Днем народження, Бос! 🎉</h2>
-    </div>
-  </div>
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-<script src="script.js"></script>
 
+  <h1>Натисни 🎉</h1>
+  <button onclick="showCake()">Показати торт</button>
+
+  <img id="cake" class="hidden" src="cake.jpg" alt="Торт зі свічками">
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
