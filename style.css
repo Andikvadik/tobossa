@@ -1,40 +1,37 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fff8f0;
   text-align: center;
+  font-family: sans-serif;
+  background-color: #fff8f0;
   padding: 50px;
 }
 
-.container {
-  background-color: #ffe0b3;
-  border-radius: 15px;
-  padding: 30px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
-  max-width: 600px;
-  margin: auto;
-}
-
 button {
-  padding: 15px 25px;
   font-size: 18px;
-  background-color: #ff6f61;
-  color: white;
-  border: none;
-  border-radius: 8px;
+  padding: 10px 20px;
   cursor: pointer;
-}
-
-button:hover {
-  background-color: #e65b50;
 }
 
 #cake {
   margin-top: 30px;
+  width: 300px;
+  animation: pop-in 0.8s ease;
 }
 
 .hidden {
   display: none;
 }
+
+@keyframes pop-in {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 
 img {
   width: 200px;
