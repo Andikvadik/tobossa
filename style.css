@@ -39,3 +39,19 @@ button:hover {
 img {
   width: 200px;
 }
+@keyframes pop-in {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+#cake {
+  margin-top: 30px;
+  animation: pop-in 0.8s ease;
+}
+
