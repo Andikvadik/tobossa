@@ -20,6 +20,11 @@ button {
 .hidden {
   display: none;
 }
+.headline {
+  color:	
+#F5F5DC ;
+}
+
 
 @keyframes pop-in {
   from {
